@@ -1,0 +1,52 @@
+body {
+    background: black;
+    margin: 0 auto;
+}
+
+[class^="btn-"] {
+    display: inline-block;
+    margin: 4px 2px;
+    width: 260px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    background-position: 100% 0;
+    background-size: 300%;
+    transition: 0.4s;
+    margin-top: 100px;
+    height: 60px;
+} 
+
+.btn-purple {
+    background-color: inherit;
+    border: 2px solid;
+    color: #8e44ad;
+    background-image: linear-gradient(90deg, #8e44ad 50%, transparent 50%);
+}
+
+.btn-yellow {
+    background-color: inherit;
+    border: 2px solid;
+    color: #f1c40f;
+    background-image: linear-gradient(45deg, #f1c40f 50%, transparent 50%);
+}
+
+.btn-blue {
+    background-color: inherit;
+    border: 2px solid;
+    color: #3498db;
+    background-image: linear-gradient(135deg, #3498db 50%, transparent 50%);
+}
+
+[class^="btn-"]:hover {
+    background-position: 0 100%;
+    color: white;
+}
+
+.center {
+    text-align: center;
+}
+
+
+    
